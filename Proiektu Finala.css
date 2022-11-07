@@ -1,0 +1,256 @@
+/*MENUArentzako*/
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #1b1b1b;
+    position: relative;
+    top: 0%;
+    margin-top: 20px;
+}
+/*MENUA karrtutxo BAKOITZA*/
+li {
+    float: left;
+    margin-left: 1%;
+}
+/*MENUA karrtutxo BAKOITZA TEXTUA*/
+li a {
+    display: block;
+    color: #bebcbb;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 10%;
+    
+}
+/*MENUA idatzitako GAINEAN*/
+li a:hover {
+    background-color: #162f44;
+    color: #75a9e6;
+}
+/*MENUArentzako*/
+#ul2 {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    overflow: hidden;
+    background-color:lightblue;
+    position: relative;
+    top: 0%;
+    margin-top: 1px;
+}
+/*MENUA karrtutxo BAKOITZA*/
+#li2 {
+    float: left;
+    margin-left: 1%;
+}
+/*MENUA karrtutxo BAKOITZA TEXTUA*/
+#li2 > a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 18px 12px;
+    text-decoration: none;
+    border-radius: 10%;
+}
+/*MENUA idatzitako GAINEAN*/
+#li2 > a:hover {
+    background-color: white;
+    color: black;
+}
+/*MENUArentzako*/
+#ul3 {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    overflow: hidden;
+    background-color: palevioletred;
+    position: relative;
+    top: 0%;
+    margin-top: 1px;
+}
+/*MENUA karrtutxo BAKOITZA*/
+#li3 {
+    float: left;
+    margin-left: 1%;
+}
+/*MENUA karrtutxo BAKOITZA TEXTUA*/
+#li3 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    border-radius: 10%;
+    
+}
+/*MENUA idatzitako GAINEAN*/
+#li3 a:hover {
+    background-color: pink;
+    color: black;
+}
+/*BODY guztientzat*/
+body {background-color: #1b1b1b;
+}
+/*INDEX-eko "taulako"*/
+.text {
+    margin-left: 3%;
+    text-align: center;
+}
+/*INDEX tituloa*/
+h1 {
+    color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+/*INDEX testua*/
+.p1 {
+    color: black;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*CHUNKYDUNKY argazkia*/
+.img1 {
+    max-width: 80%;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -200px;
+    width: 20%;
+}
+/*CHUNKYDUNKY tituloa*/
+h2 {
+    margin-left: 200px;
+    color: white;
+    font-size: 35px;
+    margin-top: 70px;
+
+}
+/*CHUNKYDUNKY textua*/
+.p2 {
+    color: white;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 40px;
+    text-align: justify;
+}
+/*STRANGERLOVE tituloa*/
+h3 {
+    color: palevioletred;
+    font-size: 200px;
+    font-family:  Courier, monospace;
+    font-size: 38px;
+    margin-left: 220px;
+    margin-top: 80px;
+}
+/*STRANGERLOVE textua*/
+.p3 {
+    color: palevioletred;
+    font-size: 19px;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*STRANGERLOVE argazkia*/
+.img2 {
+    margin-left: 860px;
+    margin-top: -255px;
+    width: 20%;
+}
+/*GOIBURUA*/
+.image_goiburua {
+    position:relative;
+    overflow:auto;
+    height: 70px;
+    width: 100%;
+    background-image: url(goiburue.jpg);
+}
+/*WOMEN dagoen textuarentzako da */
+.p4 {
+    margin-top: 200px;
+    margin-left: 250px;
+    color: white;
+}
+/* zapatilen tailak dagoen taularako */
+.taula {
+    text-align: center;
+    border-collapse: collapse;
+    color: white;
+    margin-left: 800px;
+    margin-top: -210px;
+}
+/*taularen zutabe eta filak*/
+td, th {
+    border: white 1px solid; 
+    padding: 2%;
+    width: 200px;
+}
+/*HOME dagoen karratutxo-arentzako da */
+#stuff {
+    border:blue 5px solid;
+    padding: 2%;
+    border-color: lightblue;
+    background-color: white;
+    width: 65%;
+    margin-left: 240px;
+    margin-top: 120px;
+}
+/*hau da horrialde bukaeran dagoen "laguntza" ezpaziorako da*/
+footer {
+    background-color: grey;
+    margin-top: 900;
+    padding: 5%;
+    text-align: center;
+}
+/*hau da aurreko textu gainean zaudenean letro colorea, etc etc aldatzeko*/
+footer :hover  {
+color: #162f44;
+}
+/*hau da horrialde bukaeran dagoen "laguntza" ezpaziorako da*/
+#footer2 {
+    background-color:lightblue;
+    margin-top: 900;
+    padding: 5%;
+    text-align: center;
+}
+/*hau da aurreko textu gainean zaudenean letro colorea, etc etc aldatzeko*/
+#footer :hover  {
+color: #162f44;
+}
+/*hau da horrialde bukaeran dagoen "laguntza" ezpaziorako da*/
+#footer3 {
+    background-color:palevioletred;
+    margin-top: 900;
+    padding: 5%;
+    text-align: center;
+}
+/*hau da aurreko textu gainean zaudenean letro colorea, etc etc aldatzeko*/
+#footer :hover  {
+color: #162f44;
+}
+/*INDEX-eko arazkia*/
+#img5{
+    margin-left: 170px;
+    width: 40%;
+    height: 800;
+    margin-top: 120px;
+} 
+/*INDEX-eko arazkia*/
+#img6{
+    margin-left: 940px;
+    margin-top: -400px;
+}
+/*INDEX-eko arazkia*/
+#img7{
+    margin-left: 925px;
+    margin-top: -720px;
+    width: 350px;
+}
+
+
